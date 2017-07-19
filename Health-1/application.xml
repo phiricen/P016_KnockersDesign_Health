@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/18.0">
+  <id>Health-1</id>
+  <versionNumber>1.19.1</versionNumber>
+  <filename>尋找肺癌的腫瘤標記</filename>
+  <name>尋找肺癌的腫瘤標記</name>
+  <initialWindow>
+    <title>尋找肺癌的腫瘤標記</title>
+    <content>Health-1.swf</content>
+    <systemChrome>none</systemChrome>
+    <visible>true</visible>
+    <width>1920</width>
+    <height>1080</height>
+    <renderMode>auto</renderMode>
+    <fullScreen>true</fullScreen>
+    <x>0</x>
+    <y>0</y>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <supportedProfiles>desktop</supportedProfiles>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+  <copyright>Phiricen</copyright>
+  <description>尋找肺癌的腫瘤標記</description>
+  <icon>
+    <image32x32>icons/32.png</image32x32>
+    <image72x72>icons/72.png</image72x72>
+    <image96x96>icons/96.png</image96x96>
+    <image144x144>icons/144.png</image144x144>
+    <image128x128>icons/128.png</image128x128>
+    <image1024x1024>icons/1024.png</image1024x1024>
+  </icon>
+</application>

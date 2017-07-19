@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/18.0">
+  <id>Health-2</id>
+  <versionNumber>1.17.1</versionNumber>
+  <filename>肺癌基因檢測</filename>
+  <name>肺癌基因檢測</name>
+  <initialWindow>
+    <title>肺癌基因檢測</title>
+    <content>Health-2.swf</content>
+    <systemChrome>none</systemChrome>
+    <visible>true</visible>
+    <width>1920</width>
+    <height>1080</height>
+    <renderMode>auto</renderMode>
+    <fullScreen>true</fullScreen>
+    <x>0</x>
+    <y>0</y>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <supportedProfiles>desktop</supportedProfiles>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+  <copyright>Phiricen</copyright>
+  <description>肺癌基因檢測</description>
+  <icon>
+    <image32x32>icons/32.png</image32x32>
+    <image72x72>icons/72.png</image72x72>
+    <image96x96>icons/96.png</image96x96>
+    <image128x128>icons/128.png</image128x128>
+    <image144x144>icons/144.png</image144x144>
+    <image1024x1024>icons/1024.png</image1024x1024>
+  </icon>
+</application>

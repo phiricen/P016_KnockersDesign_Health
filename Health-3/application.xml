@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/18.0">
+  <id>Health-3</id>
+  <versionNumber>1.11.1</versionNumber>
+  <filename>Health-3</filename>
+  <name>移植細胞至體內</name>
+  <initialWindow>
+    <title>Health-3</title>
+    <content>Health-3.swf</content>
+    <systemChrome>none</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+    <x>0</x>
+    <y>0</y>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+  <description>移植細胞至體內</description>
+</application>
